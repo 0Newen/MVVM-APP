@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 
 open class AcronymBaseLf(
     @SerializedName("lf")
-    var lf: String = "",
+    var lf: String = "INI",
     @SerializedName("freq")
     var freq: Int = -1,
     @SerializedName("since")
@@ -13,7 +13,7 @@ open class AcronymBaseLf(
 ) : JSONConvertible {
     companion object{
         fun getEmptyAcronymLf():AcronymBaseLf{
-            return AcronymBaseLf("",-1,-1)
+            return AcronymBaseLf("INI",-1,-1)
         }
     }
 }

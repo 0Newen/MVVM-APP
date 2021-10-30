@@ -1,4 +1,7 @@
 package com.example.mvvmapp.utils
 
-class Status {
+enum class Status {
+    SUCCESS,
+    ERROR,
+    LOADING
 }

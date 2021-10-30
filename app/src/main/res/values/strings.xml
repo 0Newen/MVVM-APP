@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MVVM APP</string>
+    <string name="app_name">ACRONYM APP</string>
+    <string name="str_detail">Detail</string>
+    <string name="str_acronym_search">Acronym Search</string>
+    <string name="str_lfs">LFS</string>
+    <string name="str_vars">VARS</string>
+    <string name="str_lf">LF</string>
 </resources>
